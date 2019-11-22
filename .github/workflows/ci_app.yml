@@ -14,4 +14,4 @@ jobs:
     - name: Trailing whitespace check
       uses: optroodt/github-action-whitespace-linter@master
       with:
-        files: "**/*"
+        files: "./vscode-dbt/*"
