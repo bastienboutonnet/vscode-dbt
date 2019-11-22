@@ -1,4 +1,4 @@
-# Welcome to your VS Code Extension
+# vscode-dbt snippets extension
 
 ## What's in the folder
 
