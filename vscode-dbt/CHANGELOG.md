@@ -7,3 +7,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+- Brings a set of generic jinja snippets (blocks, sets, loops etc.)
+- Brings a set of dbt-specific jinja and not so jinja snippets such as `{{ ref() }}`, `{{ source() }}`. See [source](./snippets/snippets.json) for the list of available snippets.

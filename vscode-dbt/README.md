@@ -1,65 +1,35 @@
 # vscode-dbt README
 
-This is the README for your extension "vscode-dbt". After writing up a brief description, we recommend including the following sections.
+Provides snippets for dbt-flavoured SQL in VSCode
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Generic Jinja
+for loops, conditionals, blocks, variable settings etc. See [source](./snippets/snippets.json) for a full list
+![jinja](./images/jinja_for_loop.gif)
 
-For example if there is an image subfolder under your extension project workspace:
+### dbt-flavoured SQL
+ref, source, log, config etc. See [source](./snippets/snippets.json) for a full list.
+![dbt_sql](./images/dbt_sql.gif)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Syntax highlighting, and jinja comments `{# comment #}` formatting is extremely well implemented in the [Better Jinja VSCode extemsion](https://marketplace.visualstudio.com/items?itemName=samuelcolvin.jinjahtml). **You really should install it as this extension is meant to work for the language `jinja-sql` which is implemented in this extention**
+- Once you have installed the Better Jinja extension you may want to associate your `.sql` files with the `jinja-sql` language that you do not have to select it every time **but this is entirely up to you and your use case**. For example, you may in some cases not want to write dbt-/jinja-flavoured SQL.
+- To associate your `.sql` files with `jinja-sql` (optional but recommended) language add the following to your `settings.json` file:
+```json
+   "files.associations":{
+      "*.sql":"jinja-sql",
+   }
+```
 
-## Extension Settings
+## Credits
+### dbt jinja concepts
+adapted from https://github.com/fishtown-analytics/atom-dbt/blob/master/snippets/dbt-sql.cson
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+### Jinja Concepts
+adapted from  https://github.com/danielchatfield/atom-jinja2/blob/master/snippets/atom-jinja2.cson
+and https://github.com/fishtown-analytics/atom-dbt/blob/master/snippets/dbt-jinja.cson
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
