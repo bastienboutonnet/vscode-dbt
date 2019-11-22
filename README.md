@@ -5,11 +5,11 @@ Provides snippets for dbt-flavoured SQL in VSCode
 ## Features
 
 ### Generic Jinja
-for loops, conditionals, blocks, variable settings etc. See [source](./snippets/snippets.json) for a full list
+for loops, conditionals, blocks, variable settings etc. See [source](./vscode-dbt/snippets/snippets.json) for a full list
 ![jinja](./images/jinja_for_loop.gif)
 
 ### dbt-flavoured SQL
-ref, source, log, config etc. See [source](./snippets/snippets.json) for a full list.
+ref, source, log, config etc. See [source](./vscode-dbt/snippets/snippets.json) for a full list.
 ![dbt_sql](./images/dbt_sql.gif)
 
 
