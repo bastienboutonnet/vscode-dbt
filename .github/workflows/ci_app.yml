@@ -1,0 +1,17 @@
+name: vscode-dbt lint
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+      with:
+        lfs: false
+    - name: Trailing whitespace check
+      uses: optroodt/github-action-whitespace-linter@master
+      with:
+        files: "**/*"
