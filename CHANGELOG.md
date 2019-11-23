@@ -4,7 +4,7 @@ All notable changes to the "vscode-dbt" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## Sonic the Hedgehog [v0.0.1] - Released 2019-11-22
 
 - Initial release
 - Brings a set of generic jinja snippets (blocks, sets, loops etc.)
