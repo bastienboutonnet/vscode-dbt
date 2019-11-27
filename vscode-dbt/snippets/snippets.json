@@ -59,16 +59,16 @@
     "Macro": {
         "prefix": "macro",
         "body": [
-            "{% macro ${1:name}($2:args}) %}",
-            "  $2",
+            "{% macro ${1:name}(${2:args}) %}",
+            "  $3",
             "{% endmacro %}"
         ],
         "description": "Jinja macro"
     },
     "Set": {
         "prefix": "set",
-        "body": "{% set ${1:var}=${2:value} %}",
-        "description": "Jinja set variable",
+        "body": "{% set ${1:var} = ${2:value} %}",
+        "description": "Jinja set variable"
     },
     "Set Block": {
         "prefix": "set_block",
@@ -118,7 +118,7 @@
     "Log": {
         "prefix": "log",
         "body": [
-            "{{ log(${1:var}, info=${2|True, alse|}) }}"
+            "{{ log(${1:var}, info=${2|True,False|}) }}"
         ],
         "description": "Log"
     },
@@ -141,7 +141,7 @@
     "Return": {
         "prefix": "return",
         "body": [
-            "{{ return(${1}) }}'"
+            "{{ return(${1}) }}"
         ],
         "description": "Return"
     },
@@ -158,5 +158,16 @@
             "{{ source('${1:source}', '${2:table_name}') }}"
         ],
         "description": "Source"
+    },
+    "Incremental DBT block": {
+        "prefix": "is_incremental",
+        "body": [
+            "{% if is_incremental() %}",
+            "  and ${1:prefix}.${2:date_col} >= coalesce((select max($2:date_col}) from {{ this }}), '1900-01-01')",
+            "{% else %}",
+            "  ${3:optional_cond}",
+            "{% endif %}"
+        ],
+        "description": "Incremental DBT Block"
     }
 }
