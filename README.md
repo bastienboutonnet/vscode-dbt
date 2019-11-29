@@ -26,9 +26,8 @@ ref, source, log, config etc. See [source](./vscode-dbt/snippets/snippets.json) 
 
 ## Installation
 The package is currently not hosted on the VSCode Extension Marketplace. To install it:
-1. Download the package from here
-2. Unzip it in a folder of your convenience
-3. Extensions typically live in the user's home directory under the `~/.vscode/extensions` folder so you'll need to copy the package in there.
+1. Download the package from [here](https://github.com/bastienboutonnet/vscode-dbt/releases)
+2. Unzip it into `~/.vscode/extensions` (or copy it somewhere and move it there).
 4. Restart VSCode for your changes to take effect.
 
 ## Credits
