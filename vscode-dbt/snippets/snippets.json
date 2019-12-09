@@ -83,7 +83,7 @@
         "body": [
             "{{",
             "  config(",
-            "    materialized='${1:table}'",
+            "    materialized = '${1:table}',",
             "    )",
             "}}"
         ],
@@ -94,8 +94,8 @@
         "body": [
             "{{",
             "  config(",
-            "    materialized='incremental',",
-            "    unique_key='${1:id}'",
+            "    materialized = 'incremental',",
+            "    unique_key = '${1:id}',",
             "    )",
             "}}"
         ],
@@ -163,7 +163,7 @@
         "prefix": "is_incremental",
         "body": [
             "{% if is_incremental() %}",
-            "  and ${1:prefix}.${2:date_col} >= coalesce((select max($2:date_col}) from {{ this }}), '1900-01-01')",
+            "  and ${1:prefix}.${2:date_col} >= coalesce((select max(${2:date_col}) from {{ this }}), '1900-01-01')",
             "{% else %}",
             "  ${3:optional_cond}",
             "{% endif %}"
