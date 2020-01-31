@@ -2,17 +2,75 @@
     "name": "vscode-dbt",
     "displayName": "vscode-dbt",
     "description": "VSCode Snippet Package for jinja and dbt",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.40.0"
     },
     "categories": [
-        "Snippets"
+        "Snippets",
+        "Programming Languages"
     ],
     "contributes": {
+        "languages": [
+            {
+                "id": "jinja",
+                "aliases": ["jinja"],
+                "extensions": [".sql", ".yml"],
+                "configuration": "./jinja_config.json"
+            },
+            {
+                "id": "markdown_jinja",
+                "aliases": ["Markdown (Jinja Templates)"],
+                "extensions": [".md"]
+            },
+            {
+                "id": "sql_jinja",
+                "aliases": ["SQL (Jinja Templates)"],
+                "extensions": [".sql"]
+            },
+            {
+                "id": "yml_jinja",
+                "aliases": ["YAML (Jinja Templates)"],
+                "extensions": [".yml"]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "jinja",
+                "scopeName": "source.jinja",
+                "path": "./syntaxes/jinja_templates.tmLanguage.json"
+            },
+            {
+                "language": "markdown_jinja",
+                "scopeName": "text.html.markdown.jinja",
+                "path": "./syntaxes/markdown_jinja.tmLanguage.json"
+            },
+            {
+                "language": "sql_jinja",
+                "scopeName": "source.sql.jinja",
+                "path": "./syntaxes/sql_jinja.tmLanguage.json"
+            },
+            {
+                "language": "yml_jinja",
+                "scopeName": "source.yaml.jinja",
+                "path": "./syntaxes/yaml_jinja.tmLanguage.json"
+            }
+        ],
         "snippets": [
             {
-                "language": "jinja-sql",
+                "language": "jinja",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "markdown_jinja",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "sql_jinja",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "yml_jinja",
                 "path": "./snippets/snippets.json"
             }
         ]

@@ -1,0 +1,12 @@
+{
+    "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
+    "patterns": [
+        {
+            "include": "source.jinja"
+        },
+        {
+            "include": "text.html.markdown"
+        }
+    ],
+    "scopeName": "text.html.markdown.jinja"
+}
