@@ -1,4 +1,7 @@
 # Change Log
+## Sonic the Hedgehog [v0.0.3] - Released 2019-11-22
+- Fixes some separator whitespace.
+- Adds snippet for comments with whitespace handling #4 Thanks @joaoclemencio <3
 
 ## Sonic the Hedgehog [v0.0.1] - Released 2019-11-22
 
