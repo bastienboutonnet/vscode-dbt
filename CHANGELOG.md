@@ -1,5 +1,5 @@
 # Change Log
-## Sonic the Hedgehog [v0.0.3] - Released 2019-11-22
+## Sonic the Hedgehog [v0.0.3] - Released 2020-02-19
 - Fixes some separator whitespace.
 - Adds snippet for comments with whitespace handling [#4](https://github.com/bastienboutonnet/vscode-dbt/pull/4) Thanks @joaoclemencio <3
 
