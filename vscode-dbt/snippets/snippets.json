@@ -15,6 +15,13 @@
         ],
         "description": "Inline Block"
     },
+    "Comment": {
+        "prefix": "comment",
+        "body": [
+            "{#- $1 -#}"
+        ],
+        "description": "Inline Comment"
+    },
     "Complete Variable": {
         "prefix": "cvar",
         "body": [
