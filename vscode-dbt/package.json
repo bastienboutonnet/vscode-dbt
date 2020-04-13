@@ -3,7 +3,7 @@
     "displayName": "vscode-dbt",
     "description": "VSCode Snippet Package for jinja and dbt",
     "publisher": "bastienboutonnet",
-    "version": "0.0.3",
+    "version": "0.1.2",
     "engines": {
         "vscode": "^1.40.0"
     },
