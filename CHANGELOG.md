@@ -1,7 +1,15 @@
-# Change Log
+# Changelog
+
+## Diablo 2 [v0.4.0]
+This release is all about doing things over and over again (for loops) --just like you'd do when you were playing Diablo back in the days
+- Adds two new more specific `for loop` snippets. One for lists (inserts `[]` around the tabstop), one for dictionaries (inserts `.items()`) [#8](https://github.com/bastienboutonnet/vscode-dbt/pull/8) Thanks @jflairie ❤️
+
+## The Legend of Zelda [v0.1.3]
+Time for the app to go on an adventure. No new features. It's up on the [VSCode marketplace now](https://marketplace.visualstudio.com/items?itemName=bastienboutonnet.vscode-dbt)
+
 ## Sonic the Hedgehog [v0.0.3] - Released 2020-02-19
 - Fixes some separator whitespace.
-- Adds snippet for comments with whitespace handling [#4](https://github.com/bastienboutonnet/vscode-dbt/pull/4) Thanks @joaoclemencio <3
+- Adds snippet for comments with whitespace handling [#4](https://github.com/bastienboutonnet/vscode-dbt/pull/4) Thanks @joaoclemencio ❤️
 
 ## Sonic the Hedgehog [v0.0.1] - Released 2019-11-22
 
