@@ -45,14 +45,14 @@
         ],
         "description": "Jinja Filter"
     },
-    "For (List)": {
-        "prefix": "for list",
+    "For": {
+        "prefix": "for",
         "body": [
-            "{% for ${1:item} in ${2:list} %}",
+            "{% for ${1:item} in ${2:sequence} %}",
             "  $3",
             "{% endfor %}"
         ],
-        "description": "Jinja For (List)"
+        "description": "Jinja For"
     },
     "For (Dict)": {
         "prefix": "for dict",
