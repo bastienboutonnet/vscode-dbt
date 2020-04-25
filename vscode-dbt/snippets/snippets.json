@@ -54,6 +54,24 @@
         ],
         "description": "Jinja For"
     },
+    "For (Dict)": {
+        "prefix": "for dict",
+        "body": [
+            "{% for ${1:key}, ${2:value} in ${3:dict}.items() %}",
+            "  $4",
+            "{% endfor %}"
+        ],
+        "description": "Jinja For (Dict)"
+    },
+    "For (List)": {
+        "prefix": "for list",
+        "body": [
+            "{% for ${1:item} in [${2:list}] %}",
+            "  $3",
+            "{% endfor %}"
+        ],
+        "description": "Jinja For (List)"
+    },
     "If": {
         "prefix": "if",
         "body": [
