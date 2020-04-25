@@ -1,6 +1,6 @@
 # Changelog
 
-## Diablo 2 [v0.4.0]
+## Diablo 2 [v0.2.0]
 This release is all about doing things over and over again (for loops) --just like you'd do when you were playing Diablo back in the days
 - Adds two new more specific `for loop` snippets. One for lists (inserts `[]` around the tabstop), one for dictionaries (inserts `.items()`) [#8](https://github.com/bastienboutonnet/vscode-dbt/pull/8) Thanks @jflairie ❤️
 
