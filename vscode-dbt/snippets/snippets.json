@@ -57,9 +57,9 @@
     "For (Dict)": {
         "prefix": "for dict",
         "body": [
-            "{%- for ${1:key}, ${2:value} in ${3:dict}.items() %}",
-            "    $4",
-            "{%- endfor %}"
+            "{% for ${1:key}, ${2:value} in ${3:dict}.items() %}",
+            "  $4",
+            "{% endfor %}"
         ],
         "description": "Jinja For (Dict)"
     },
