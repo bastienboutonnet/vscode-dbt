@@ -3,7 +3,8 @@
     "displayName": "vscode-dbt",
     "description": "VSCode Snippet Package for jinja and dbt",
     "publisher": "bastienboutonnet",
-    "version": "0.2.0",
+    "icon": "images/vscode_dbt_icon.png",
+    "version": "0.2.3",
     "engines": {
         "vscode": "^1.40.0"
     },
@@ -23,7 +24,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/bastienboutonnet/vscode-dbt.git"
+        "url": "https://github.com/bastienboutonnet/vscode-dbt.git"
     },
     "homepage": "https://github.com/bastienboutonnet/vscode-dbt/blob/master/README.md"
 }
