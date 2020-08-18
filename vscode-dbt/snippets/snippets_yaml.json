@@ -2,14 +2,14 @@
     "Doc Macro": {
         "prefix": "doc",
         "body": [
-            "{{ doc(\"${1:doc_macro_name}\") }}"
+            "{{ doc('${1:doc_macro_name}') }}"
         ],
         "description": "Documentation Macro"
     },
     "Env Var": {
         "prefix": "env_var",
         "body": [
-            "{{ env_var(\"${1:env_var_name}\") }}"
+            "{{ env_var('${1:env_var_name}') }}"
         ],
         "description": "Env Var"
     },
