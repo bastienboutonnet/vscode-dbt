@@ -3,7 +3,7 @@
         "prefix": "docs",
         "body": [
             "{% docs ${1:name} %}",
-            "  $2",
+            "$2",
             "{% enddocs %}"
         ],
         "description": "Docs"
