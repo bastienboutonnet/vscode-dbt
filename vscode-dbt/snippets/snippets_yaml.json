@@ -1,10 +1,10 @@
 {
-    "Doc Macro": {
+    "Doc": {
         "prefix": "doc",
         "body": [
-            "{{ doc('${1:doc_macro_name}') }}"
+            "{{ doc('${1:docs_name}') }}"
         ],
-        "description": "Documentation Macro"
+        "description": "Doc"
     },
     "Env Var": {
         "prefix": "env_var",
