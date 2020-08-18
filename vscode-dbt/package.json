@@ -16,6 +16,10 @@
             {
                 "language": "jinja-sql",
                 "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "jinja-yaml",
+                "path": "./snippets/snippets_yaml.json"
             }
         ]
     },
