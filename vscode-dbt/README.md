@@ -1,6 +1,6 @@
 # vscode-dbt README
 
-Provides snippets for dbt-flavoured SQL in VSCode
+Provides snippets for dbt-flavoured SQL and YAML in VSCode
 
 ## Features
 
@@ -11,6 +11,9 @@ for loops, conditionals, blocks, variable settings etc. See [source](./vscode-db
 ### dbt-flavoured SQL
 ref, source, log, config etc. See [source](./vscode-dbt/snippets/snippets.json) for a full list.
 ![dbt_sql](./images/dbt_sql.gif)
+
+### dbt-flavoured YAML
+ref, source, var etc. See [source](./vscode-dbt/snippets/snippets_yaml.json) for a full list.
 
 ## Credits
 ### dbt jinja concepts
