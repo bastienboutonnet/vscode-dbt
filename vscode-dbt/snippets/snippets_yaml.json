@@ -16,9 +16,16 @@
     "Ref": {
         "prefix": "ref",
         "body": [
-            "{{ ref('${1:model_name}') }}"
+            "ref('${1:model_name}')"
         ],
         "description": "Ref"
+    },
+    "Source": {
+        "prefix": "source",
+        "body": [
+            "source('${1:source}', '${2:table_name}')"
+        ],
+        "description": "Source"
     },
     "Var": {
         "prefix": "var",
@@ -26,12 +33,5 @@
             "{{ var('${1:var_name}') }}"
         ],
         "description": "Var"
-    },
-    "Source": {
-        "prefix": "source",
-        "body": [
-            "{{ source('${1:source}', '${2:table_name}') }}"
-        ],
-        "description": "Source"
     }
 }
