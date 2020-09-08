@@ -5,7 +5,7 @@ Provides snippets for dbt and Jinja functions in SQL, YAML, and Markdown.
 ## Features
 
 ### Generic Jinja
-for loops, conditionals, blocks, variable settings etc. See [source](./vscode-dbt/snippets/snippets.json) for a full list
+`for` loops, conditionals, blocks, variable settings etc. See [source](./vscode-dbt/snippets/snippets.json) for a full list
 ![jinja](./images/jinja_for_loop.gif)
 
 ### SQL
@@ -41,6 +41,11 @@ If snippet suggestions still do not work after selecting the appropriate languag
     "strings": true
 }
 ```
+
+## Known Issues
+
+Using the Jinja YAML language for YAML files changes the default comment style from YAML (`#`) to Jinja style (`{# #}`), which can cause YAML syntax errors.
+Likewise, using the Jinja Markdown language on Markdown files changes the default comment style from Markdown (`<-- -->`) to Jinja style.
 
 ## Credits
 ### dbt jinja concepts
