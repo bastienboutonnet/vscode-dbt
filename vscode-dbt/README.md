@@ -1,16 +1,18 @@
-# vscode-dbt README
+# vscode-dbt
 
 Provides snippets for dbt and Jinja functions in SQL, YAML, and Markdown.
+
+Cool Tip: For a richer integration between dbt and vscode you should install [vscode-dbt-power-user](https://marketplace.visualstudio.com/items?itemName=innoverio.vscode-dbt-power-user) it does a **LOT** of cool stuff such as: code navigation between your models, completion aware of your dbt project, and much more. **dbt power user has a dependency on this extension so you'll also find my snippets in there! Give it a go!**
 
 ## Features
 
 ### Generic Jinja
 `for` loops, conditionals, blocks, variable settings etc. See [source](./vscode-dbt/snippets/snippets.json) for a full list
-![jinja](./images/jinja_for_loop.gif)
+ ![jinja](../images/jinja_for_loop.gif)
 
 ### SQL
 `ref`, `source`, `log`, `config` etc. See [source](./vscode-dbt/snippets/snippets_sql.json) for a full list.
-![dbt_sql](./images/dbt_sql.gif)
+![dbt_sql](../images/dbt_sql.gif)
 
 ### YAML
 `ref`, `source`, `var` etc. See [source](./vscode-dbt/snippets/snippets_yaml.json) for a full list.
@@ -21,7 +23,7 @@ Provides snippets for dbt and Jinja functions in SQL, YAML, and Markdown.
 ## Set-up
 
 To enable support for these snippets when viewing a SQL, YAML, or Markdown file in Visual Studio Code, enter `Ctrl + K, M` (or `Ctrl + Shift + P` and search for "Change Language Mode").
-Then select Jinja SQL, Jinja YAML, or Jinja Markdown respectively. 
+Then select Jinja SQL, Jinja YAML, or Jinja Markdown respectively.
 
 Alternatively, add the following to your Visual Studio Code settings in your dbt project:
 
