@@ -140,7 +140,7 @@
             "Goal: ${1:high-level objective of the model}",
             "Granularity: ${2:level of detail of the model}",
             "Assumptions/Caveats:",
-            "   - ${3:assumptions/caveats if any}",
+            "   ${3:- assumptions/caveats if any}",
             "-#}"
         ],
         "description": "Model Overview"
