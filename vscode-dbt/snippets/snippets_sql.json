@@ -133,6 +133,18 @@
         ],
         "description": "Env Var"
     },
+    "Model Overview": {
+        "prefix": "model_overview",
+        "body": [
+            "{#-",
+            "Goal: ${1:high-level objective of the model}",
+            "Granularity: ${2:level of detail of the model}",
+            "Assumptions/Caveats:",
+            "   ${3:- assumptions/caveats if any}",
+            "-#}"
+        ],
+        "description": "Model Overview"
+    },
     "Load Result": {
         "prefix": "load_result",
         "body": [

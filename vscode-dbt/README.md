@@ -14,6 +14,9 @@ Cool Tip: For a richer integration between dbt and vscode you should install [vs
 `ref`, `source`, `log`, `config` etc. See [source](./vscode-dbt/snippets/snippets_sql.json) for a full list.
 ![dbt_sql](../images/dbt_sql.gif)
 
+![model_overview](../images/model_overview.gif)
+This snippet helps coders provide a high-level overview of every model in a standard way.
+
 ### YAML
 `ref`, `source`, `var` etc. See [source](./vscode-dbt/snippets/snippets_yaml.json) for a full list.
 
