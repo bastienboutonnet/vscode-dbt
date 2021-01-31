@@ -137,9 +137,9 @@
         "prefix": "model_description",
         "body": [
             "{#-",
-            "Goal: $(1:high-level objective of the model)",
-            "Granularity: $(2:level of detail of the model)",
-            "Assumptions: $(3:assumptions if any)",
+            "Goal: ${1:high-level objective of the model}",
+            "Granularity: ${2:level of detail of the model}",
+            "Assumptions: ${3:assumptions if any}",
             "-#}"
         ],
         "description": "Model Description"
