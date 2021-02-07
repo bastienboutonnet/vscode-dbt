@@ -7,20 +7,24 @@ Cool Tip: For a richer integration between dbt and vscode you should install [vs
 ## Features
 
 ### Generic Jinja
+
 `for` loops, conditionals, blocks, variable settings etc. See [source](./vscode-dbt/snippets/snippets.json) for a full list
- ![jinja](../images/jinja_for_loop.gif)
+![jinja](/images/jinja_for_loop.gif)
 
 ### SQL
-`ref`, `source`, `log`, `config` etc. See [source](./vscode-dbt/snippets/snippets_sql.json) for a full list.
-![dbt_sql](../images/dbt_sql.gif)
 
-![model_overview](../images/model_overview.gif)
+`ref`, `source`, `log`, `config` etc. See [source](./vscode-dbt/snippets/snippets_sql.json) for a full list.
+![dbt_sql](/images/dbt_sql.gif)
+
+![model_overview](/images/model_overview.gif)
 This snippet helps coders provide a high-level overview of every model in a standard way.
 
 ### YAML
+
 `ref`, `source`, `var` etc. See [source](./vscode-dbt/snippets/snippets_yaml.json) for a full list.
 
 ### Markdown
+
 `docs` definitions. See [source](./vscode-dbt/snippets/snippets_markdown.json) for a full list.
 
 ## Set-up
@@ -53,11 +57,14 @@ Using the Jinja YAML language for YAML files changes the default comment style f
 Likewise, using the Jinja Markdown language on Markdown files changes the default comment style from Markdown (`<-- -->`) to Jinja style.
 
 ## Credits
+
 ### dbt jinja concepts
+
 adapted from https://github.com/fishtown-analytics/atom-dbt/blob/master/snippets/dbt-sql.cson
 
 ### Jinja Concepts
-adapted from  https://github.com/danielchatfield/atom-jinja2/blob/master/snippets/atom-jinja2.cson
+
+adapted from https://github.com/danielchatfield/atom-jinja2/blob/master/snippets/atom-jinja2.cson
 and https://github.com/fishtown-analytics/atom-dbt/blob/master/snippets/dbt-jinja.cson
 
 ## Release Notes
