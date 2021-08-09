@@ -122,7 +122,6 @@
             "   )",
             "}}",
             "",
-            "select * from ${7: -- source or ref}",
             "",
             "{% endsnapshot %}"
         ],
