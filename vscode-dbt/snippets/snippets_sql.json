@@ -159,6 +159,13 @@
         ],
         "description": "Log"
     },
+    "Log a variable": {
+        "prefix": "log_var",
+        "body": [
+            "{{ log('${1:var}: ' ~ ${1:var}, info=${2|True,False|}) }}"
+        ],
+        "description": "Log a single variable's name and value"
+    },
     "Statement": {
         "prefix": "statement",
         "body": [
