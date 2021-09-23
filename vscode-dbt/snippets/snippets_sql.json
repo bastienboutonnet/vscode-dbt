@@ -103,6 +103,30 @@
             "{% endset %}"
         ]
     },
+    "Snapshot": {
+        "prefix": [
+            "snapshot",
+            "snap"
+        ],
+        "body": [
+            "{% snapshot ${1:snapshot_name} %}",
+            "",
+            "{{",
+            "   config(",
+            "       target_database='${2:target_database}',",
+            "       target_schema='${3:target_schema}',",
+            "       unique_key='${4:unique_key}',",
+            "",
+            "       strategy='${5:strategy}',",
+            "       updated_at='${6:updated_at}',",
+            "   )",
+            "}}",
+            "",
+            "",
+            "{% endsnapshot %}"
+        ],
+        "description": "Dbt snapshot"
+    },
     "Dbt Config Block": {
         "prefix": "config",
         "body": [
