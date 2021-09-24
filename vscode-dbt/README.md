@@ -1,4 +1,4 @@
-# vscode-dbt
+# vscode-dbt v0.4.1
 
 Provides snippets for dbt and Jinja functions in SQL, YAML, and Markdown.
 
