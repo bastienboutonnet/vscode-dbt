@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.3.0
+## v0.5.0
 - dbt snapshots snippets [#13](https://github.com/bastienboutonnet/vscode-dbt/pull/13) by [@mharrisb1](https://github.com/mharrisb1)
 - log a variable with name and value snippet [#14](https://github.com/bastienboutonnet/vscode-dbt/pull/14) by [@swanderz](https://github.com/swanderz)
 
