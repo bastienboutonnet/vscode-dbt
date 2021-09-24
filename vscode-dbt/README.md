@@ -8,27 +8,27 @@ Cool Tip: For a richer integration between dbt and vscode you should install [vs
 
 ### Generic Jinja
 
-`for` loops, conditionals, blocks, variable settings etc. See [source](./vscode-dbt/snippets/snippets.json) for a full list
-![jinja](/images/jinja_for_loop.gif)
+`for` loops, conditionals, blocks, variable settings etc. See [source](./snippets/snippets_sql.json) for a full list
+![jinja](../images/jinja_for_loop.gif)
 
 ### SQL
 
-`ref`, `source`, `log`, `config` etc. See [source](./vscode-dbt/snippets/snippets_sql.json) for a full list.
-![dbt_sql](/images/dbt_sql.gif)
+`ref`, `source`, `log`, `config` etc. See [source](./snippets/snippets_sql.json) for a full list.
+![dbt_sql](../images/dbt_sql.gif)
 
 ### Model Overview
 
 This snippet helps coders provide a high-level overview of every model in a standard way.
 
-![model_overview](/images/model_overview.gif)
+![model_overview](../images/model_overview.gif)
 
 ### YAML
 
-`ref`, `source`, `var` etc. See [source](./vscode-dbt/snippets/snippets_yaml.json) for a full list.
+`ref`, `source`, `var` etc. See [source](./snippets/snippets_yaml.json) for a full list.
 
 ### Markdown
 
-`docs` definitions. See [source](./vscode-dbt/snippets/snippets_markdown.json) for a full list.
+`docs` definitions. See [source](./snippets/snippets_markdown.json) for a full list.
 
 ## Set-up
 
