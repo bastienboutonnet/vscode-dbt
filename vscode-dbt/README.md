@@ -9,18 +9,14 @@ Cool Tip: For a richer integration between dbt and vscode you should install [vs
 ### Generic Jinja
 
 `for` loops, conditionals, blocks, variable settings etc. See [source](./snippets/snippets_sql.json) for a full list
-![jinja](../images/jinja_for_loop.gif)
 
-### SQL
+### dbt-SQL
 
-`ref`, `source`, `log`, `config` etc. See [source](./snippets/snippets_sql.json) for a full list.
-![dbt_sql](../images/dbt_sql.gif)
+`ref`, `source`, `log`, `config`, `snapshots`, `log` etc. See [source](./snippets/snippets_sql.json) for a full list.
 
 ### Model Overview
 
 This snippet helps coders provide a high-level overview of every model in a standard way.
-
-![model_overview](../images/model_overview.gif)
 
 ### YAML
 
